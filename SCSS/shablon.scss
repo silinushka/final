@@ -1,0 +1,85 @@
+%hero {
+    font-family: 'Montserrat Bold';
+    font-size: 38px;
+    line-height: 46px;
+    @extend %gradient-red;
+}
+
+%h2 {
+    font-family: 'Montserrat Bold';
+    font-size: 30px;
+    line-height: 37px;
+    color: #323264;
+}
+
+%h3 {
+    font-family: 'Montserrat Bold';
+    font-size: 22px;
+    line-height: 27px;
+    color: #323264;
+}
+
+%h3-caps {
+    font-family: 'Montserrat Bold';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+}
+
+%paragraph {
+    font-family: 'Montserrat Regular';
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%flex-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%flex-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+%flex-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+%flex-ss {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+%montserrat-regular {
+    font-family: "Montserrat Regular";
+}
+
+%montserrat-bold {
+    font-family: "Montserrat Bold";
+}
+
+%gradient-red {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+%gradient {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}

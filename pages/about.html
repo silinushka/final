@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>About us</title>
+</head>
+<body>
+    <header class="header">
+        <div class="fix-size-main">
+            <div class="header__container">
+                <div class="header__container-logo">
+                    <img class="logo" src="../images/header/logo.svg" alt="logo">
+                    <button class="show__for__mobile" id="openMenu">
+                        <img src="../images/header/hamburger.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="header__main-content__contacts">
+                    <div class="header_lang">
+                        <p class="lang">УК</p>
+                        <p class="lang">РУ</p>
+                        <p class="lang active">EN</p>
+                    </div>
+                    <div class="point hide__for__mobile"></div>
+                    <p class="address hide__for__mobile">Kyiv, Mechnikova str, 14/1</p>
+                    <div class="point hide__for__mobile"></div>
+                    <p class="phone">0800 211 927</p>
+                    <div class="point hide__for__mobile"></div>
+                    <a class="header__social-link hide__for__mobile" href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" fill="#B3B3BA"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div> 
+            <nav class="header__nav hide__for__mobile">
+                <ul class="nav__list">
+                    <li class="nav__list__item active"><a href="">about us</a></li>
+                    <li class="nav__list__item"><a href="">services</a></li>
+                    <li class="nav__list__item"><a href="">team</a></li>
+                    <li class="nav__list__item"><a href="">publications</a></li>
+                    <li class="nav__list__item" id="modalButton">contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <div class="modal_title">
+                    <h2 class="title">
+                        We would like to help you
+                    </h2>
+                    <button id="closeModal">
+                        <img src="../images/header/close.svg" alt="close">
+                    </button>
+                </div>    
+                <form method="post" action="https://fom.in.ua/echo">
+                    <input type="text" placeholder="Name" id="Name"> <br>
+                    <input class="input" type="text" placeholder="Message" id="Message"> <br>
+                    <h3 class="text">How to answer you?</h3>
+                    <input type="tel" placeholder="Phone number" id="Phone_number"> <br>
+                    <input type="email" placeholder="Email" id="Email"> <br>
+                    <input class="btn" type="submit" value="Send message">
+                </form>
+            </div>
+        </div>
+        <div class="mobile__nav-container" id="mobileNavContainer">
+            <div class="mobile__nav">
+                <div class="mobile__nav__btn-container">
+                    <button id="closeMenu">
+                        <img src="../images/header/close.svg" alt="close">
+                    </button>
+                </div>    
+                <nav>
+                    <ul class="mobile__nav__list">
+                        <li class="mobile__nav__list__item active"><a href="">about us</a></li>
+                        <li class="mobile__nav__list__item"><a href="">послуги</a></li>
+                        <li class="mobile__nav__list__item"><a href="">команда</a></li>
+                        <li class="mobile__nav__list__item"><a href="">публікації</a></li>
+                        <li class="mobile__nav__list__item"><a href="">контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="fix-size-secondary main-first">
+            <div class="main__information">
+                <h1 class="main__information-title">
+                    We turn over the idea of legal services
+                </h1>
+                <p class="main__information-text">
+                    Consolidating many years of experience and practice, the company's 
+                    lawyers accompany complex projects and achieve the adoption of a 
+                    number of decisions that are important for the industry. Many people 
+                    form the practice of applying the law of the sea in Ukraine.
+                    <br>
+                    <br>
+                    HLEGAL is a reliable business partner, confirmed by stable 
+                    cooperation with international law firms, the trust of large Ukrainian 
+                    and international companies, and the recognition of professional 
+                    ratings.
+                </p>
+            </div>
+            <div class="main__card-container bordered">
+                <div class="main__card">
+                    <img src="../images/about/10+.svg" alt="10+">
+                    <p>
+                        years of relevant experience
+                    </p>
+                </div>
+                <div class="main__card">
+                    <img src="../images/about/30+.svg" alt="30+">
+                    <p>
+                        active clients who entrust us with their 
+                        orders on a monthly basis
+                    </p>
+                </div>
+                <div class="main__card">
+                    <img src="../images/about/500+.svg" alt="500+">
+                    <p>
+                        hours of pro bono work annually
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img class="main__landing" src="../images/about/landing.jpg" alt="landing">
+        <div class="fix-size-secondary main-first">
+            <div class="main__information">
+                <p class="main__information-text">
+                    The historically unchanged legal profession has begun to reformat in 
+                    recent years. Clients are feeling this, but law firms are still resisting 
+                    evolution. Clients need convenience, simplicity, transparent 
+                    payment. Google, IBM WatsOn, Symantec Clearwell prove that the 
+                    technological revolution in legal services has begun and is imminent.
+                    <br>
+                    <br>
+                    Quality is what we care about the most.
+                    <br>
+                    <br>
+                    It's simple. If you are unhappy with our work, we will refund your 
+                    money. We trust our clients. And we want our clients to trust us too.
+                </p>
+            </div>
+            <div class="main__card-container">
+                <h2 class="main__information-title secondary">
+                    Quality is what we care about the most.
+                </h2>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="fix-size-main">
+            <div class="footer__card">
+                <h3 class="title">achievements</h3>
+                <div class="footer__card-container">
+                    <div class="card"><img src="../images/footer/legal.jpg"></div>
+                    <div class="card hide__element"><img src="../images/footer/layer.jpg"></div>
+                    <div class="card hide__element"><img src="../images/footer/lider.jpg"></div>
+                    <div class="card hide__element"><img src="../images/footer/ulf.jpg"></div>
+                </div>
+                <div class="footer__point-container">
+                    <button class="footer__point active"></button>
+                    <button class="footer__point"></button>
+                    <button class="footer__point"></button>
+                    <button class="footer__point show"></button>
+                    <button class="footer__point show"></button>
+                    <button class="footer__point show"></button>
+                </div>
+            </div>
+            <hr>
+            <div class="footer__container">
+                <div class="footer-content-container">
+                    <div class="footer__main-content">
+                        <p class="footer__address">Kyiv, Mechnikova str, 14/1</p>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <a class="footer__adres-link" href="">On map</a>
+                    </div>
+                    <div class="footer__main-content">
+                        <a class="footer__social-link" href="#">
+                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z" fill="#24A3FF"/>
+                            </svg>                                    
+                        </a>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <p class="footer_phone">0800 211 927</p>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <a class="email" href="">contact@forstudy.space</a>
+                    </div>    
+                </div>
+                <div class="footer_info">
+                    <p>© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

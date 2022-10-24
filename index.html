@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Hlegal</title>
+</head>
+<body>
+    <header class="header__main">
+        <div class="fix-size-main">
+            <div class="header__container__main">
+                <div class="header__container-logo">
+                    <img class="logo__main" src="images/header/logo_main.svg" alt="logo">
+                    <button class="show__for__mobile" id="openMenu">
+                        <img src="images/header/hamburger_main.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="header__main-content__contacts__main">
+                    <div class="header_lang">
+                        <p class="lang__main">УК</p>
+                        <p class="lang__main">РУ</p>
+                        <p class="lang__main active">EN</p>
+                    </div>
+                    <div class="point hide__for__mobile"></div>
+                    <p class="address_main hide__for__mobile">Kyiv, Mechnikova str, 14/1</p>
+                    <div class="point hide__for__mobile"></div>
+                    <p class="phone__main">0800 211 927</p>
+                    <div class="point hide__for__mobile"></div>
+                    <a class="header__social-link hide__for__mobile" href="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z" fill="#FFFFFF"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div> 
+            <nav class="header__nav__main hide__for__mobile">
+                <ul class="nav__list">
+                    <li class="nav__list__item__main"><a href="pages/about.html">about us</a></li>
+                    <li class="nav__list__item__main"><a href="">services</a></li>
+                    <li class="nav__list__item__main"><a href="">team</a></li>
+                    <li class="nav__list__item__main"><a href="">publications</a></li>
+                    <li class="nav__list__item__main" id="modalButton">contact</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <div class="modal_title">
+                    <h2 class="title">
+                        We would like to help you
+                    </h2>
+                    <button id="closeModal">
+                        <img src="images/header/close.svg" alt="close">
+                    </button>
+                </div>    
+                <form method="post" action="https://fom.in.ua/echo">
+                    <input type="text" placeholder="Name" id="Name"> <br>
+                    <input class="input" type="text" placeholder="Message" id="Message"> <br>
+                    <h3 class="text">How to answer you?</h3>
+                    <input type="tel" placeholder="Phone number" id="Phone_number"> <br>
+                    <input type="email" placeholder="Email" id="Email"> <br>
+                    <input class="btn" type="submit" value="Send message">
+                </form>
+            </div>
+        </div>
+        <div class="mobile__nav-container" id="mobileNavContainer">
+            <div class="mobile__nav">
+                <div class="mobile__nav__btn-container">
+                    <button id="closeMenu">
+                        <img src="images/header/close.svg" alt="close">
+                    </button>
+                </div>    
+                <nav>
+                    <ul class="mobile__nav__list">
+                        <li class="mobile__nav__list__item"><a href="pages/about.html">about us</a></li>
+                        <li class="mobile__nav__list__item"><a href="">послуги</a></li>
+                        <li class="mobile__nav__list__item"><a href="">команда</a></li>
+                        <li class="mobile__nav__list__item"><a href="">публікації</a></li>
+                        <li class="mobile__nav__list__item"><a href="">контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main__section__first">
+            <div class="main__section__first-background fix-size-secondary">
+                <h1>you legal solutions provider</h1>
+                <button>
+                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_22728_11340)">
+                            <circle opacity="0.5" cx="21" cy="21" r="20" stroke-width="2" stroke="currentColor" />
+                            <path d="M12 18L21 27L30 18" stroke="currentColor" stroke-width="2" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_22728_11340">
+                                <rect width="42" height="42" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>                        
+            </div>
+            <div class="main__section__first-navigation fix-size-secondary">
+                <nav class="main__nav">
+                    <ul class="main__nav__list">
+                        <li class="main__nav__list__item"><a class="active__item" href="">Consistent</a></li>
+                        <li class="main__nav__list__item"><a href="">Customer oriented</a></li>
+                        <li class="main__nav__list__item"><a href="">Innovative</a></li>
+                        <li class="main__nav__list__item"><a href="">Business oriented</a></li>
+                    </ul>
+                </nav>
+                <div class="main__section__first-navigation_card">
+                    <h2>We turn the idea of legal services</h2>
+                    <p>
+                        Consolidating many years of experience and practice, the company's lawyers accompany 
+                        complex projects and achieve a number of important decisions for the industry. Many 
+                        of them form the practice of applying the law of the sea in Ukraine.
+                    </p>
+                </div>
+            </div>
+            <div class="main__section__first-card_container fix-size-main">
+                <a class="main__section__first-card_container-link" href="">
+                    <span>Services</span>
+                    <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 2L8 6.5L3.5 11" stroke="currentColor" stroke-width="2"/>
+                    </svg>                        
+                </a>
+                <h2>What can we do better than others?</h2>
+                <div class="main__section__first-card__holder">
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/ecommerce.svg" alt="e-commerce">
+                        </div>
+                        <h3>
+                            IT and e-commerce
+                        </h3>
+                        <p>
+                            An endless stream of contracts, tax issues, labor relations,
+                            corporate papers - legal work distracts you from doing
+                            business. But there is not much work to do to hire an in-house lawyer.
+                        </p>
+                    </div>
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/support.svg" alt="support">
+                        </div>
+                        <h3>
+                            Comprehensive daily <br>
+                            legal support
+                        </h3>
+                        <p>
+                            In addition, over time, the work will become the same
+                            type and uninteresting for a full-time lawyer. And we
+                            know very
+                            well how difficult it is to find a good candidate
+                            with experience in the field of information technology in Ukraine.
+                        </p>
+                    </div>
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/coprorate.svg" alt="coprorate">
+                        </div>
+                        <h3>
+                            Structuring corporate relationships
+                        </h3>
+                        <p>
+                            Instead of just providing legal services, we will hire a
+                            lawyer or a whole team that will fit into the daily life of
+                            your company.
+                        </p>
+                    </div>
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/trust.svg" alt="trust">
+                        </div>
+                        <h3>
+                            Building contractual relations
+                        </h3>
+                        <p>
+                            Once a week, or week after month, you have your own
+                            lawyer by your side. Anyone in the company can catch it at the
+                            coffee maker and just talk about current affairs instead
+                            of waiting for update status.
+                        </p>
+                    </div>
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/protection.svg" alt="protection">
+                        </div>
+                        <h3>
+                            Protection of business,
+                            intellectual property
+                        </h3>
+                        <p>
+                            And all the other time he will work on new diverse projects,
+                            so he will definitely not stop in professional development.
+                            One way or another, all Axon Partners will work for you instead
+                            of a corporate lawyer.
+                        </p>
+                    </div>
+                    <div class="main__section__first-card">
+                        <div class="card__img">
+                            <img src="images/hlegal/court.svg" alt="court">
+                        </div>
+                        <h3>
+                            Judicial representation
+                        </h3>
+                        <p>
+                            Is it a small, medium-sized company or a market leader?
+                            Local business or multinational company? Do you have your own
+                            legal department or not?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="shadow__first"></div>
+        <div class="shadow__second"></div>
+        <section class="main__section__second fix-size-secondary">
+            <div class="main__section__second-info">
+                <div class="avatar"></div>
+                <div class="main__section__second-info-card">
+                    <a class="main__section__second-link" href="">
+                        <span>команда</span>
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.5 2L8 6.5L3.5 11" stroke="currentColor" stroke-width="2"/>
+                        </svg>                        
+                    </a>
+                    <h3>
+                        Ми звикли брати на себе 
+                        відповідальність та завжди гарантуємо 
+                        чесну, вчасну допомогу, навіть у 
+                        ситуаціях, коли більшість безсилі.
+                    </h3>
+                    <h6>Олександр Олександровський</h6>
+                    <p>Керуючий партнер</p>
+                </div>
+            </div>
+            <div class="main__section__second-point__container fix-size-secondary">
+                <button class="point active"></button>
+                <button class="point"></button>
+                <button class="point"></button>
+            </div>
+        </section>
+        <section>
+            <div class="main__section__third">
+                <h3>They already trust us</h3>
+                <div class="main__section__third__card-container">
+                    <a class="section__third__card first" href="">
+                        <img src="images/hlegal/hillel.svg" alt="hilel">
+                    </a>
+                    <a class="section__third__card second" href="">
+                        <img src="images/hlegal/wanna_biz.svg" alt="wannaBiz">
+                    </a>
+                    <a class="section__third__card third" href="">
+                        <img src="images/hlegal/tapgerine.svg" alt="tapgerine">
+                    </a>
+                    <a class="section__third__card fourth" href="">
+                        <img src="images/hlegal/3dLook.svg" alt="3DLook">
+                    </a>
+                    <a class="section__third__card fifth" href="" >
+                        <img src="images/hlegal/orangear.svg" alt="orangear">
+                    </a>
+                    <a class="section__third__card sixth" href="">
+                        <img src="images/hlegal/adteligent.svg" alt="adteligent">
+                    </a>
+                    <a class="section__third__card seventh" href="">
+                        <img src="images/hlegal/clicky.svg" alt="clicky">
+                    </a>
+                    <a class="section__third__card eighth" href="" >
+                        <img src="images/hlegal/eco_leasing.svg" alt="ecoLeasing">
+                    </a>
+                    <a class="section__third__card ninth" href="">
+                        <img src="images/hlegal/infatek.svg" alt="infaTek">
+                    </a>
+                    <a class="section__third__card tenth" href="">
+                        <img src="images/hlegal/sitypark.svg" alt="sityPark">
+                    </a>
+                    <a class="section__third__card eleventh" href="">
+                        <img src="images/hlegal/artprint.svg" alt="artPrint">
+                    </a>
+                    <a class="section__third__card twelfth" href="">
+                        <img src="images/hlegal/ultimatecard.svg" alt="ultimateCard">
+                    </a>
+                </div>
+            </div>    
+        </section>
+        <section class="main__section__fourth">
+            <div class="fix-size-main">
+                <div class="main__section__fourth__container">
+                    <a class="main__section__fourth-link" href="">
+                        <span>Publications</span>
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.5 2L8 6.5L3.5 11" stroke="currentColor" stroke-width="2"/>
+                        </svg>                        
+                    </a>
+                    <h2 class="main__section__fourth-link_title">We have something to tell</h2>
+                    <div class="main__section__fourth__container-card">
+                        <div class="section__fourth__card">
+                            <img src="images/hlegal/equity.png" alt="equity">
+                            <div class="section__fourth__cards__item">
+                                <h4>Equity associate</h4>
+                                <p class="date">April 22</p>
+                                <hr>
+                                <p class="text">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
+                            </div>
+                        </div>
+                        <div class="section__fourth__card">
+                            <img src="images/hlegal/gdpr.png" alt="gdpr">
+                            <div class="section__fourth__cards__item">
+                                <h4>Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h4>
+                                <p class="date">September 29</p>
+                                <hr>
+                                <p class="text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
+                            </div>
+                        </div>
+                        <div class="section__fourth__card huge">
+                            <img src="images/hlegal/millennial.png" alt="millennial">
+                            <div class="section__fourth__cards__item">
+                                <h4>Millennial Testament</h4>
+                                <p class="date">August 19</p>
+                                <hr>
+                                <p class="text">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="fix-size-main">
+            <hr>
+            <div class="footer__container">
+                <div class="footer-content-container">
+                    <div class="footer__main-content">
+                        <p class="footer__address">Kyiv, Mechnikova str, 14/1</p>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <a class="footer__adres-link" href="">On map</a>
+                    </div>
+                    <div class="footer__main-content">
+                        <a class="footer__social-link" href="#">
+                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z" fill="#24A3FF"/>
+                            </svg>                                    
+                        </a>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <p class="footer_phone">0800 211 927</p>
+                        <div class="footer__main-content-point hide__for__mobile"></div>
+                        <a class="email" href="">contact@forstudy.space</a>
+                    </div>    
+                </div>
+                <div class="footer_info">
+                    <p>© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
